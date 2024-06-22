@@ -1,4 +1,4 @@
-# OYJ 개인프로젝트
+# OYJ 개인프로젝트(OYJ_Projects)
 ## 1. Jumper
 디자인부터 코드까지 모두 직접 창조해서 만들었습니다. 
 <br> From the design to the code, I made it myself.
