@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mmcaSignup_user</title>
+    <link rel="stylesheet" href="mmcaSignup_user.css">
+    <script src="https://kit.fontawesome.com/f8b69bd1ba.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>회원가입</h1>
+        <h3>회원가입을 하시면 국립현대미술관 서비스를 이용할 수 있습니다</h3>
+    </div>
+    <div class="middle">회원정보 입력 <strong>*</strong>는 필수입력 항목입니다.</div>
+    <table class="section1">
+        <tr>
+            <th>
+                <span>아이디<strong>*</strong></span>
+            </th>
+            <td>
+                <input type="text" placeholder="아이디" id="inputId">
+                <button>중복체크</button>
+                <span id="inputIdResult"></span>
+                <p>※ 아이디는 8자 이상 11자 미만의 영문, 숫자 조합만 가능합니다.</p>
+            </td>
+
+        </tr>
+
+        <tr>
+            <th>
+                <span>비밀번호<strong>*</strong></span>
+
+
+            </th>
+            <td>
+                <input id="inputPw" type="password" placeholder="비밀번호">
+                <span id="inputPwResult"></span>
+                <p>※ 비밀번호는 영문, 숫자,특수문자 혼용하여 8~16자를 입력해 주세요.</p>
+            </td>
+
+        </tr>
+        <tr>
+            <th>
+                <span>비밀번호 확인<strong>*</strong></span>
+            </th>
+            <td>
+                <input id="inputPw2" type="password" placeholder="비밀번호 확인">
+                <span id="inputPw2Result"></span>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <span>이름<strong>*</strong></span>
+            </th>
+            <td>
+                <input type="text" placeholder="이름" id="inputName">
+                <span id="inputNameResult"></span>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <span>국적<strong>*</strong></span>
+            </th>
+            <td>
+                <select name="" id="">
+                    <option value="korea" selected>대한민국</option>
+                    <option value="england">영국</option>
+                    <option value="german">독일</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <span>이메일<strong>*</strong></span>
+            </th>
+            <td>
+                <input type="text" id="inputEmail" placeholder="계정">
+                <span>@</span>
+                <select name="emails">
+                    <option value="직접 입력" selected>직접 입력</option>
+                    <option value="">naver.com</option>
+                    <option value="">nate.com</option>
+                    <option value="">gmail.com</option>
+                    <option value="">hanmail.com</option>
+                </select>
+                <span id="inputEmailResult"></span>
+
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <span>휴대전화<strong>*</strong></span>
+            </th>
+            <td>
+                <input id="inputPhone" type="text" placeholder="010-1234-1234">
+                <span id="inputPhoneResult"></span>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <span>이메일 서비스</span>
+            </th>
+            <td>
+                <input type="radio">동의
+                <input type="radio" checked>미동의
+                ※ 안내는 물론 각종 뉴스와 알찬 소식의 메일링 서비스가 제공됩니다.
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <span>휴대폰 문자 서비스</span>
+            </th>
+            <td>
+                <input type="radio" name="" id="">동의
+                <input type="radio" name="" id="" checked>미동의
+                ※ 휴대폰 문자 메시지 서비스를 통하여 민원처리정보를 통보 받으실 수 있습니다.
+            </td>
+        </tr>
+    </table>
+    <div class="section1__button">
+        <button class="signup">회원가입</button>
+        <button class="cancel">취소</button>
+    </div>
+
+
+
+    <script src="mmcaSignup_user.js"></script>
+
+</body>
+
+</html>

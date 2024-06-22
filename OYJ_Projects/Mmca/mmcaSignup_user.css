@@ -1,0 +1,41 @@
+body{
+    margin:2% 4%;
+}
+strong{
+    color:red;
+}
+table{
+    width: 100%;
+    margin: 3% 0%;
+}
+tr{
+
+}
+th{
+    background-color: rgb(245, 245, 245);
+    padding: 2% 4%;
+    border: 1px solid rgb(236, 236, 236);
+}
+td{
+    padding: 2% 4%;
+    border: 1px solid rgb(236, 236, 236);
+}
+td input, td select{
+    border-radius: 30px;
+    padding: 1% 2%;
+    margin : 0% 1%;
+}
+.section1__button{
+    text-align: center;
+}
+.signup, .cancel{
+    padding: 1% 7%;
+    margin: 0% 2%;
+    border: transparent;
+}
+.signup{
+    background-color: black;
+}
+.cancel{
+    border: 1px solid black;
+}

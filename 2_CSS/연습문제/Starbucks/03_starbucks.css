@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+
+/* header */
+.header {
+    background-color: rgb(255, 252, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+/* logo */
+
+/* nav */
+.nav {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.nav>div:nth-of-type(1) {
+    margin-top: 15px;
+    height: 50%;
+    width: 70%;
+}
+
+.nav>div:nth-of-type(2) {
+    height: 50%;
+    width: 90%;
+}
+
+.nav>div>ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.nav a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+.nav1 a:hover {
+    height: 100%;
+    text-decoration: underline;
+}
+.nav2 a:hover {
+    height: 100%;
+    text-decoration: underline;
+    background-color: black;
+    color: green;
+}
+
+/* content */
+.content {
+    height: 700px;
+}
+
+.sideBanner {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 30px;
+    top: 200px;
+}
+
+.behindBack {
+    background-color: rgb(71, 194, 243);
+    height: 65%;
+    padding: 20px;
+}
+
+.frontBack {
+    display: flex;
+    background-color: lightblue;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontBack>img {
+    height: 80%;
+}
+
+.frontBack>div {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.frontBack button{
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+    background-color:transparent;
+    border-radius: 10px;
+}
+.frontBack button:hover{
+    transition-duration: 0.5s;
+    text-decoration: underline;
+    background-color: #1e3932;
+}
+
+.notice {
+    display: flex;
+    height: 5%;
+}
+
+.notice>div:nth-child(1) {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.notice>div:nth-child(2) {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reward {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(54, 68, 54);
+    padding-top: 15px;
+    color: white;
+}
+.reward button{
+    margin:10px;
+    justify-content: space-evenly;
+}
+
+.signup{
+    margin-top: 30px;
+    height: 40px;
+    width: 90px;
+    background-color:rgb(100, 145, 100);
+    color:white;
+    border-radius: 10px;
+
+}
+.signup:hover{
+    text-decoration: underline;
+}
+.login{
+    margin-top: 30px;
+    color:white;
+    height: 40px;
+    width: 90px;
+    background-color:transparent;
+    border-radius: 10px;
+    border:1px solid white;
+}
+.login:hover{
+    text-decoration: underline;
+}
+.gift{
+    margin-top: 30px;
+    color:white;
+    height: 40px;
+    width: 200px;
+    background-color:transparent;
+    border-radius: 10px;
+    border:1px solid white;
+}
+.gift:hover{
+    text-decoration: underline;
+}
+/* footer */

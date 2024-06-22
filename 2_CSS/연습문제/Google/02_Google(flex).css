@@ -1,0 +1,120 @@
+header{
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+.main{
+    margin-top:10px;
+    padding-right:10px;
+    display:flex;
+    align-items: baseline;
+}
+.mainitems button{
+    padding:0;
+    border:none;
+    background: none;
+}
+.mainitem2 button{
+    width:35px;
+    height:35px;
+    border-radius: 100px;
+    background: darkgray;
+    color:white;
+}
+.mainitem1 button:hover{
+    width:35px;
+    height: 35px;
+    border-radius:100px;
+    background:darkgrey;
+    color:white;
+}
+.mainitem1 button:hover{
+    text-decoration: underline;
+}
+.mainitems button img{
+    background-color:white;
+}
+.mainitems{
+    margin:10px;
+    color:white;
+}
+
+article{
+    text-align:center;
+}
+
+.inputwithicon{
+    border-radius:30px;
+    position:realtive;
+    margin-top:50px;
+}
+.inputwithicon input[type=search]{
+    border-radius:50px;
+    width:550px;
+    height:45px;
+    padding-left:55px;
+    border: 1px solid lightgray;
+}
+.inputwithicon button{
+    position:relative;
+    right:40px;
+    padding:0;
+    border:none;
+    background:none;
+}
+.footercontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+}
+.footeritemadd{
+    display:flex;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right:300px;
+
+}
+.footeritem{
+    height:100px;
+    width:100px;
+    
+}
+.footeritem:hover{
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+}
+.footeritem2add{
+    display:flex;
+    padding-left: 350px;
+}
+.footeritem2{
+    height:100px;
+    width:100px;
+}
+.footeritem2:hover{
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+
+}
+.footeritem button, .footeritem2 button{
+    width:100px;
+    height:100px;
+    background:none;
+    border:none;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.footername{
+    color:black;
+}
+.chrome_button{
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid lightgray;
+    color:rgb(77, 148, 255);
+    height:40px;
+    width:150px;
+    position: fixed;
+    right:0;
+}
