@@ -148,3 +148,6 @@ $("#btn1").on("click", function(){
     alert(str);
 })
 
+if($(arr[i]).prop("checked")){
+    str += $(arr[i]).val()+" ";
+}
