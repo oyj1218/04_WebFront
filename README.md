@@ -1,4 +1,4 @@
-# oYJo 개인프로젝트(oYJo_Projects)
+# oYJo 개인프로젝트(OYJ_Projects)
 html, css 위주로 이루어져 있고 약간의 Javascript가 있습니다.
 <br>html, css 2주 배우고 만든 2개의 홈페이지입니다.
 <br>Javascript는 배우지 않았지만 개별적으로 공부해서 활용했습니다.
